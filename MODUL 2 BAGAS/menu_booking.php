@@ -32,7 +32,7 @@
                 <img src="Alphardd.png" class="card-img-top" alt="Toyota Alphard" style="width: 600px">
               </div>
               <div class="col">
-                <form action="pembayarans.php" method="post">
+                <form action="pembayaran.php" method="post">
                   <div class="mb-3">
                     <label for="nama" class="form-label">Name</label>
                     <input class="form-control" name="nama" type="text" value="BAGAS_1202201372" aria-label="readonly input example" readonly>

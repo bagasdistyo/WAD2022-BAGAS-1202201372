@@ -11,7 +11,7 @@
       </style>
 
     <body>
-    <?
+    <?php
     $bookno = rand()
     $name = $_POST['nama'];
     $date = $_POST['date'];
