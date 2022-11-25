@@ -17,7 +17,7 @@
             move_uploaded_file($temp, '../asset/image/'.$foto_mobil);
             $status_pembayaran=$_POST['status_pembayaran'];
 
-            $query = mysqli_query($kon,"INSERT INTO modul3(id_mobil,nama_mobil,pemilik_mobil,merk_mobil,tanggal_beli,deskripsi,foto_mobil,status_pembayaran)  ('$id_mobil','$nama_mobil','$pemilik_mobil','$merk_mobil','$tanggal_beli','$deskripsi','$foto_mobil','$status_pembayaran')");
+            $query = mysqli_query($kon,"INSERT INTO modul3(id_mobil,nama_mobil,pemilik_mobil,merk_mobil,tanggal_beli,deskripsi,foto_mobil,status_pembayaran) VALUES ('$id_mobil','$nama_mobil','$pemilik_mobil','$merk_mobil','$tanggal_beli','$deskripsi','$foto_mobil','$status_pembayaran')");
 
             if ($query){
                 header('Location: ..\pages\ListCar-Bagas.php');

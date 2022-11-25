@@ -50,7 +50,7 @@
                 </div>
 
                 <div class="col">
-                    <a href="../config/delete.php?id_mobil=<?php echo $isi['id_mobil']; ?>" class="btn btn-danger" name="id">Delete</a> 
+                    <a href="../config/delete.php?id_mobil=<?php echo $isi['id_mobil']; ?>" class="btn btn-danger" name="delete">Delete</a> 
                 </div>
             </div>
         </div>
