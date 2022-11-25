@@ -20,7 +20,7 @@ if (isset($_POST['submit'])){
     $query = mysqli_query($kon,"INSERT INTO modul3(id_mobil,nama_mobil,pemilik_mobil,merk_mobil,tanggal_beli,deskripsi,foto_mobil,status_pembayaran) VALUES ('$id_mobil','$nama_mobil','$pemilik_mobil','$merk_mobil','$tanggal_beli','$deskripsi','$foto_mobil','$status_pembayaran')");
 
     if ($query){
-        header('Location: ..\pages\Add-Bagas.php');
+        header('Location: ..\pages\ListCar-Bagas.php');
     }
 }
 ?>

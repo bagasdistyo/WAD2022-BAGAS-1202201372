@@ -14,6 +14,7 @@
     $query = mysqli_query($kon,"SELECT id_mobil FROM `modul3`");
     $jumlah = mysqli_num_rows($query);
     $ambil = mysqli_query($kon, "SELECT * FROM `modul3`");
+
   ?>
   <nav class="navbar navbar-expand-lg bg-primary">
   <div class="container-fluid">
@@ -42,15 +43,14 @@
     <img src="../asset/image/<?php echo $isi['foto_mobil'];?>" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title"><?= $isi['nama_mobil'];?></h5>
-            <p class="card-text"><?= $getDeskripsi = $isi['deskripsi'];
-            echo $getDeskripsi;?></p>
+            <p class="card-text"><?= $isi['deskripsi'];?></p>
             <div class="row">
                 <div class="col">
-                    <a href="#" class="btn btn-primary">Detail</a>
+                    <a href="Detail-Bagas.php?id_mobil=<?php echo $isi['id_mobil']; ?>" class="btn btn-primary" name="id">Detail</a>
                 </div>
 
                 <div class="col">
-                    <a href="#" class="btn btn-danger">Delete</a> 
+                    <a href="../config/delete.php?id_mobil=<?php echo $isi['id_mobil']; ?>" class="btn btn-danger" name="id">Delete</a> 
                 </div>
             </div>
         </div>
