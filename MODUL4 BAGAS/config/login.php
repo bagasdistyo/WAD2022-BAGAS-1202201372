@@ -26,10 +26,10 @@
                         setcookie ("user_login",$check_login["email"],time()+ 60);
                         setcookie ("user_password",$check_login["password"],time()+ 60);
                     } 
-                    if ($passw == $check_login['password'] & & $email == $check_login['email']){
+                    if ($passw == $check_login['password']  & $email == $check_login['email']){
                         session_start();
                         $_SESSION['login'] = 'berhasil';
-                        header('Location: ../pages/HomeAwal.php?id='.$check_login['email']);
+                        header('Location: ../pages/HomeAwal.php?id='.$check_login['id']);
                         exit;
                     } 
                 }
