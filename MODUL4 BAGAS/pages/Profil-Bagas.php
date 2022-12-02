@@ -22,7 +22,7 @@
   </div>
   <?php }?>
 
-  <?php if (isset($_SESSION['edit']) && $_SESSION['edit'] == 'berhasil') {$_SESSION['edit'] = ''; ?>
+  <?php if (isset($_SESSION['edit']) && $_SESSION['edit'] == '') {$_SESSION['edit'] = ''; ?>
   <div class="alert alert-success m-0 p-2 alert-dismissible" role="alert">Data Berhasil di Ubah
     <button type="button" class="btn-close p-3" data-bs-dismiss="alert" aria-label="Close"></button>
   </div>
