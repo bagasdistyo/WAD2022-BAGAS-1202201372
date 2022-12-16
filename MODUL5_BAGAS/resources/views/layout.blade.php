@@ -18,9 +18,9 @@
             <div class="collapse navbar-collapse">
                 <div class="navbar-nav" style="padding-left: 100px;">
                     <a style="color: white;" class="nav-link active" aria-current="page"
-                        href="">Home</a>
+                        href="{{ route('home') }}">Home</a>
                     <a class="nav-link" style="padding-left: 35px; padding-right:900px;color: white;" 
-                        href="">MyCar</a>';
+                        href="product">MyCar</a>';
                 </div>
                 <a class="btn btn-light" style="font-color:blue;" role="button"
                     href="/product/create">Add Car</a>

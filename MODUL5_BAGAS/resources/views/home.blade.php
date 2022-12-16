@@ -10,7 +10,7 @@
                     <a style="color: white;" class="nav-link active" aria-current="page"
                         href="{{ route('home') }}">Home</a>
                     <a class="nav-link" style="padding-left: 35px; padding-right:900px;color: white;" 
-                        href="">MyCar</a>
+                        href="product">MyCar</a>
                         <!-- listcar -->
                 </div>
                 <a class="btn btn-light" style="font-color:blue;" role="button"
@@ -34,7 +34,7 @@
     <div class="row">
         <div class="col">
             <div>
-                <h1 style="padding-top: 25px; font-size:50px;">Selamat Datang Di Showroom</h1>
+                <h1 style="padding-top: 25px; font-size:50px;">Selamat Datang Di Showroom Bagas</h1>
             </div>
             <div style="padding-top: 10px;">
                 <a>Bienvenido a la sala de exhibición de bagas, ofrecemos una gran selección de autos, desde los precios más baratos hasta los más caros</a>
