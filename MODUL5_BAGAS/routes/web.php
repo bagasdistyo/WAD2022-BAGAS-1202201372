@@ -24,7 +24,7 @@ Route::post('register', [UserController::class, 'register_action'])->name('regis
 Route::get('login', [UserController::class, 'login'])->name('login');
 Route::post('login', [UserController::class, 'login_action'])->name('login.action');
 Route::get('logout', [UserController::class, 'logout'])->name('logout');
-Route::get('ListCar-Bagas', [UserController::class, 'ListCar-Bagas'])->name('ListCar-Bagas');
+Route::get('ListCar-Bagas', [UserControllers::class, 'ListCar-Bagas'])->name('ListCar-Bagas');
 Route::resource('product', ProductController::class);
 
 
